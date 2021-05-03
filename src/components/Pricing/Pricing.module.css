@@ -1,0 +1,88 @@
+.container {
+  background-color: var(--background-dark);
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+
+  padding: 1rem;
+}
+
+.text {
+  text-align: center;
+  font-size: 24px;
+  color: var(--text-color-third);
+  margin: 1rem 2rem;
+}
+
+.prices {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+
+  padding: 24px;
+}
+
+.card {
+  margin: 24px;
+  min-width: 250px;
+}
+
+.card_heading {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 24px;
+}
+
+.card_text {
+  color: var(--text-color-third);
+}
+
+.card_gray {
+  margin: 1.2rem;
+  border-radius: 8px;
+  background: var(--background-color);
+  text-align: center;
+  min-width: 280px;
+  padding: 1rem;
+}
+
+.card_price {
+  font-size: 1.5rem;
+  margin-bottom: 44px;
+}
+
+.tick {
+  margin-right: 8px;
+}
+
+.para {
+  display: grid;
+  gap: 10px;
+
+  padding-bottom: 0.8rem;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: var(--background-darker);
+  color: var(--text-color);
+  border-radius: 8px;
+  padding: 10px 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}

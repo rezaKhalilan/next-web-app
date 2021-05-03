@@ -48,9 +48,7 @@ const Layout = ({ children, title = "Next Web" }) => {
             <Link href="/about">
               <a>About</a>
             </Link>
-            <Link href="/">
-              <a>Privacy Policy</a>
-            </Link>
+
             <button
               className={styles.theme}
               onClick={switchTheme}

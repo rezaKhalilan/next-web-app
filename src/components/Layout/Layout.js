@@ -48,7 +48,8 @@ const Layout = ({ children, title = "Next Web" }) => {
             <Link href="/about">
               <a>About</a>
             </Link>
-
+          </div>
+          <div className={styles.btn}>
             <button
               className={styles.theme}
               onClick={switchTheme}
@@ -57,17 +58,7 @@ const Layout = ({ children, title = "Next Web" }) => {
               Change Theme
             </button>
           </div>
-          <div className={styles.icons}>
-            <a>
-              <FacebookIcon />
-            </a>
-            <a>
-              <TwitterIcon />
-            </a>
-            <a>
-              <EmailIcon />
-            </a>
-          </div>
+          {/* here */}
         </div>
 
         <div className={styles.logoAndLinks}>
@@ -102,14 +93,16 @@ const Layout = ({ children, title = "Next Web" }) => {
             </div>
           </div>
           <div className={styles.footer_right}>
-            <div className={styles.footer_title}>Browse Pages</div>
-            <div className={styles.footer_links}>
-              <ul>
-                <li>Our Company</li>
-                <li>Terms and Conditions</li>
-                <li>What We Have Done</li>
-                <li>Support</li>
-              </ul>
+            <div className={styles.icons}>
+              <a>
+                <FacebookIcon />
+              </a>
+              <a>
+                <TwitterIcon />
+              </a>
+              <a>
+                <EmailIcon />
+              </a>
             </div>
           </div>
         </div>

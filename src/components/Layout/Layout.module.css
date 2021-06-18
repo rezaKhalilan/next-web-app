@@ -27,6 +27,10 @@
   transition: background-color 0.5s ease;
 }
 
+.btn {
+  margin-right: 5rem;
+}
+
 .topHeader a:hover {
   color: var(--text-color);
   background-color: var(--background-darker);
@@ -38,8 +42,12 @@
 }
 
 .icons {
-  /* flex: 1; */
-  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  width: 50%;
+  max-width: 200px;
 }
 
 .logoAndLinks {
